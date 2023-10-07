@@ -33,7 +33,6 @@ function EventPage() {
 
   const imageContainerStyle = {
     height: "400px",
-     width: "100%",
     overflow: "hidden",
     position: "relative",
   };
@@ -101,7 +100,7 @@ const EventCard = (props) => (
           layout="responsive"
           width={300}
           height={180}
-          objectFit="contain"
+          objectFit="cover"
         />
         <div className="overlay" style={props.overlayStyle}></div>
       </div>
