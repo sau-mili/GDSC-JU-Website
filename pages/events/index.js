@@ -27,7 +27,6 @@ function EventPage() {
 
   const eventCardStyle = {
     flex: "0 0 calc(33.33% - 20px)", // Equal size for all cards with padding
-    margin: "10px", // Adjust margin for spacing between event blocks
     padding: "20px", // Padding inside the card
   };
 
