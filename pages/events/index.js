@@ -22,7 +22,7 @@ function EventPage() {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-between",
-    gap: "20px",
+    padding: "10px",
     marginRight: "20px", // Adjust the rightmargin 
     marginLeft: "20px", // Adjust the bottommargin
   };
